@@ -1,20 +1,20 @@
 {
-  "name": "mozaik-ext-github",
-  "version": "2.0.0-alpha.3",
-  "description": "Mozaik github widgets",
+  "name": "mozaik-ext-airtable",
+  "version": "0.0.1",
+  "description": "Mozaik airtable widgets",
   "repository": {
     "type": "git",
-    "url": "git://github.com/plouc/mozaik-ext-github"
+    "url": "git://github.com/b5/mozaik-ext-airtable"
   },
   "license": "MIT",
   "author": {
-    "name": "Raphaël Benitte",
-    "url": "https://github.com/plouc"
+    "name": "Brendan O'Brien",
+    "url": "https://airtable.com/b5"
   },
-  "homepage": "https://github.com/plouc/mozaik-ext-github",
+  "homepage": "https://github.com/b5/mozaik-ext-airtable",
   "main": "./lib/components/index.js",
   "keywords": [
-    "github",
+    "airtable",
     "mozaik",
     "widget",
     "extension",

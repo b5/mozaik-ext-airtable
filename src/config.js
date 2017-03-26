@@ -11,18 +11,24 @@ const convict = require('convict')
 
 
 const config = convict({
-    github: {
+    airtable: {
         baseUrl: {
-            doc:     'The github API base url.',
-            default: 'https://api.github.com',
+            doc:     'The airtable API base url.',
+            default: 'https://api.airtable.com/v0',
             format:  String,
-            env:     'GITHUB_BASE_URL'
+            env:     'AIRTABLE_BASE_URL'
+        },
+        appId: {
+            doc:     'The airtable App Id',
+            default: 'apps6l3sgNsC4WzOq',
+            format:  String,
+            env:     'AIRTABLE_APP_ID',
         },
         token: {
-            doc:     'The github API token.',
+            doc:     'The airtable API token.',
             default: '',
             format:  String,
-            env:     'GITHUB_API_TOKEN'
+            env:     'AIRTABLE_API_TOKEN'
         }
     }
 })

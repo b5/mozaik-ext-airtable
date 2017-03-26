@@ -21,8 +21,12 @@ import RepoTrafficClonesLine       from './traffic/RepoTrafficClonesLine'
 import RepoCommitActivityHistogram from './stats/RepoCommitActivityHistogram'
 import RepoCommitActivityLine      from './stats/RepoCommitActivityLine'
 
+import Events                      from './Events'
+
 
 export default {
+    Events,
+    
     Branches,
     PullRequests,
     UserBadge,
